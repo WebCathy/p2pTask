@@ -1,0 +1,131 @@
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+.navbar-inverse .navbar-brand span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+.tooltip img {
+  width: 130px;
+}
+.navbar-default .navbar-nav > li > a {
+  line-height: 40px;
+  min-width: 80px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #f0f0f0;
+}
+#feature {
+  margin-top: 20px;
+}
+#feature .row div {
+  background: url("../../../static/images/feature01.png") no-repeat left center;
+  min-height: 65px;
+  padding-left: 80px;
+}
+#feature .row div h4 {
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+#feature .row div p {
+  color: #999;
+  line-height: 20px;
+}
+#feature .row div:nth-of-type(2) {
+  background-image: url("../../../static/images/feature02.png");
+}
+#feature .row div:nth-of-type(3) {
+  background-image: url("../../../static/images/feature03.png");
+}
+#invest,
+#article {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
+}
+.panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.panel-default {
+  border: none;
+}
+.panel-default > .panel-heading {
+  background-color: transparent;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel-default > .panel-heading h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-bottom: px;
+  color: #2e8ece;
+  font-weight: bold;
+  border-bottom: 3px solid #2e8ece;
+}
+.panel-default > .panel-heading p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 60px;
+}
+.panel-default .table-hover th,
+.panel-default .table-hover td {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 46px;
+}
+.panel-default .panel-body ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.panel-default .panel-body ul li {
+  line-height: 38px;
+  border-bottom: dashed 1px #E0E0E0;
+  cursor: pointer;
+}
+.panel-default .panel-body ul li:hover {
+  color: #00a8ff;
+}
+.panel-default .panel-body ul li span {
+  float: right;
+  color: #999;
+}
+#footer {
+  background-color: #f8f8f8;
+  height: 236px;
+  margin: 20px 0px 20px 0px;
+  padding-top: 30px;
+  display: flex;
+}
+#footer #footerlist {
+  padding: 0;
+}
+#footer ul {
+  list-style: none;
+  margin: 0 0 10px;
+  line-height: 40px;
+}
+#footer img {
+  max-width: 160px;
+}
